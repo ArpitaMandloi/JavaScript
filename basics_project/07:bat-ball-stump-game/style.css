@@ -1,0 +1,60 @@
+*{
+     margin:0;
+     padding:0;
+
+}
+.body{
+    text-align:center;
+    background-color: #2A7B9B;
+    background-image: url('image.png'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height:100vh;
+    filter: brightess(0) invert(1);
+    backdrop-filter: blur(4px);
+    }
+     h1{
+      margin:30px;
+      font-family:cursive;
+      color: #FFC0CB;
+
+     }
+  
+
+.choice-button{
+    height:00px;
+    width:100px;
+     border:none;
+     margin:10px;
+     cursor: pointer;
+   
+    /* filter: brightness(0) invert(1); */
+    
+    
+}
+.choice-image{
+    height:100px;
+     width:80px; 
+    border-radius: 70px;
+    
+}
+
+#Bat{
+  height:130px;
+  width:100px;
+}
+#stump{
+  height:150px;
+  width:150px;
+ 
+}
+.reset{
+  background-color:#C6426E;
+  border-radius: 10px;
+  margin: 15px;
+  padding:15px;
+  cursor: pointer;
+  font-family: fantasy;
+  border:none;
+}
